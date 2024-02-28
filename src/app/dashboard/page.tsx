@@ -1,5 +1,5 @@
 import { auth, currentUser } from "@clerk/nextjs";
-import SideNavbar from "./sidenavbar.js";
+import SideNavbar from "./sidenavbar";
 export default async function Dashboard() {
     const { userId } = auth();
     const user = await currentUser();
