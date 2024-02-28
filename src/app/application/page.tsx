@@ -1,4 +1,3 @@
-import { auth, currentUser } from "@clerk/nextjs";
 import SideNavbar from "./sidenavbar.js";
 export default async function Application() {
     
