@@ -5,10 +5,11 @@ export default async function Header(){
     const { userId } = auth();
     return (
         <div className="bg-blue-600 text-neutral-100">
-            <div className="container mx-auto flex items-centre justify-between py-4">
-                <Link href="/"> Home</Link>
+            <div className="container flex items-centre justify-between py-4">
+                <div className="ml-4">
+                <Link href="/"> Home</Link></div>
                 <div>{userId ? (
-                <div className="flex gap-4 items-center">
+                <div className="flex gap-4 items-center mr-10">
                     <Link href="/dashboard">Dashboard</Link>
                     <UserButton afterSignOutUrl = '/'/>
                 </div>
