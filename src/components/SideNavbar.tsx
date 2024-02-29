@@ -20,7 +20,7 @@ function SideNavbar() {
     <div>
       <Disclosure as="nav">
         
-        <div className="p-6 w-1/2 h-screen bg-blue-100 z-20 fixed top-30 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
+        <div className="p-6 w-1/2 h-screen bg-blue-100 z-20 top-30 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
           <div className="flex flex-col justify-start item-center">
            
             <div className=" my-8 border-b border-gray-100 pb-4">

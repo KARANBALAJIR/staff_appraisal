@@ -1,5 +1,5 @@
 import { auth, currentUser } from "@clerk/nextjs";
-import SideNavbar from "./sidenavbar.js";
+import SideNavbar from "./../../components/SideNavbar";
 export default async function Feedback() {
    
 

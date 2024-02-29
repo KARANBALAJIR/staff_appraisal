@@ -1,4 +1,4 @@
-import SideNavbar from "./sidenavbar.js";
+import SideNavbar from "./../../components/SideNavbar";
 export default async function Application() {
     
     
