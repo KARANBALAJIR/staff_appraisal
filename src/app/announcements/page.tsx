@@ -4,7 +4,7 @@ export default async function Announcements() {
 
     
     return (
-        <div>
+        <div className="flex">
             {/* <div className="ml-35 text-border">Have a nice day {user.firstName}.....</div> */}
             <SideNavbar/>
             <h1 className="text-center">Announcements</h1>
